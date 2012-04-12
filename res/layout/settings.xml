@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+     <Button 
+    	android:id="@+id/backbutton"
+    	android:text="Back"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" />
+    <LinearLayout
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center">
+	    <TextView
+	    	android:text="Notification 1"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content" />
+	    <EditText
+	    	android:width="100px"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content" 
+	    	android:inputType="number" />
+	    <ToggleButton
+	        android:id="@+id/toggleButton1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:layout_gravity="right"
+	        android:text="Enabled" />
+	
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notification 2" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:width="100px" >
+
+            <requestFocus />
+        </EditText>
+
+        <ToggleButton
+            android:id="@+id/ToggleButton01"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Enabled" />
+
+    </LinearLayout>
+ 
+</LinearLayout>

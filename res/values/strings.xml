@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, LunchTimerActivity!</string>
+    <string name="app_name">LunchTimer</string>
+    <string name="settingsTitle">Settings</string>
+    <string name="helpTitle">Help</string>
+    <string name="timeLabel">Time:</string>
+    <string name="enabledCheck1">Enabled</string>
+    <string name="minutesLabel">min.</string>
+
+</resources>
