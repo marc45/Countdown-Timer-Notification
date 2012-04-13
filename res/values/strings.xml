@@ -8,5 +8,6 @@
     <string name="timeLabel">Time:</string>
     <string name="enabledCheck1">Enabled</string>
     <string name="minutesLabel">min.</string>
+    <string name="customizeLabel">Customize</string>
 
 </resources>
