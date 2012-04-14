@@ -14,28 +14,31 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int TextView01=0x7f06000e;
-        public static final int TextView02=0x7f060012;
-        public static final int ToggleButton2=0x7f06000b;
-        public static final int ToggleButton3=0x7f06000f;
-        public static final int ToggleButton4=0x7f060013;
-        public static final int backbutton=0x7f060001;
-        public static final int button1=0x7f060004;
-        public static final int button2=0x7f060002;
-        public static final int customizeButton1=0x7f060000;
-        public static final int customizeButton2=0x7f060008;
-        public static final int customizeButton3=0x7f06000c;
-        public static final int customizeButton4=0x7f060010;
-        public static final int help=0x7f060015;
-        public static final int min1Label=0x7f060006;
-        public static final int min2Label=0x7f06000a;
-        public static final int settings=0x7f060014;
-        public static final int textView1=0x7f060003;
-        public static final int timerText1=0x7f060005;
-        public static final int timerText2=0x7f060009;
-        public static final int timerText3=0x7f06000d;
-        public static final int timerText4=0x7f060011;
-        public static final int toggleButton1=0x7f060007;
+        public static final int TextView01=0x7f060011;
+        public static final int TextView02=0x7f060015;
+        public static final int ToggleButton2=0x7f06000e;
+        public static final int ToggleButton3=0x7f060012;
+        public static final int ToggleButton4=0x7f060016;
+        public static final int backbutton=0x7f060002;
+        public static final int button1=0x7f060007;
+        public static final int customizeButton1=0x7f060001;
+        public static final int customizeButton2=0x7f06000b;
+        public static final int customizeButton3=0x7f06000f;
+        public static final int customizeButton4=0x7f060013;
+        public static final int help=0x7f060018;
+        public static final int min1Label=0x7f060009;
+        public static final int min2Label=0x7f06000d;
+        public static final int settings=0x7f060017;
+        public static final int textView1=0x7f060006;
+        public static final int textView2=0x7f060003;
+        public static final int timeSetButton=0x7f060005;
+        public static final int timeText1=0x7f060004;
+        public static final int timerText1=0x7f060008;
+        public static final int timerText2=0x7f06000c;
+        public static final int timerText3=0x7f060010;
+        public static final int timerText4=0x7f060014;
+        public static final int timerTextView=0x7f060000;
+        public static final int toggleButton1=0x7f06000a;
     }
     public static final class layout {
         public static final int help_popup=0x7f030000;
@@ -54,5 +57,6 @@ public final class R {
         public static final int minutesLabel=0x7f040006;
         public static final int settingsTitle=0x7f040002;
         public static final int timeLabel=0x7f040004;
+        public static final int timerSetLabel=0x7f040008;
     }
 }

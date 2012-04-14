@@ -1,12 +1,16 @@
 package com.koa.lunchtimer;
 
+import android.R.color;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class LunchTimerActivity extends Activity {
@@ -15,6 +19,12 @@ public class LunchTimerActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        
+        Typeface lcdtf = Typeface.createFromAsset(getAssets(),
+        		"fonts/lcddot.ttf");
+        TextView ttv = (TextView) findViewById(R.id.timerTextView);
+        ttv.setTypeface(lcdtf);
+        ttv.setTextColor(Color.GREEN);
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

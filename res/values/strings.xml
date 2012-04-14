@@ -9,5 +9,6 @@
     <string name="enabledCheck1">Enabled</string>
     <string name="minutesLabel">min.</string>
     <string name="customizeLabel">Customize</string>
+    <string name="timerSetLabel">Edit</string>
 
 </resources>
