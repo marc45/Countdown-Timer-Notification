@@ -1,6 +1,5 @@
 package com.koa.lunchtimer;
 
-import android.R.color;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -14,17 +13,34 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class LunchTimerActivity extends Activity {
+	private TextView ttv;
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         
+        int countdownTime = 30;
+        
+        int not1Time = 0;
+        int not2Time = 0;
+        int not3Time = 0;
+        int not4Time = 0;
+        
+        Boolean countdown = false;
+        Boolean not1Enabled = false;
+        Boolean not2Enabled = false;
+        Boolean not3Enabled = false;
+        Boolean not4Enabled = false;
+        
+        
+        
         Typeface lcdtf = Typeface.createFromAsset(getAssets(),
         		"fonts/lcddot.ttf");
-        TextView ttv = (TextView) findViewById(R.id.timerTextView);
+        ttv = (TextView) findViewById(R.id.timerTextView);
         ttv.setTypeface(lcdtf);
         ttv.setTextColor(Color.GREEN);
+        ttv.setText(countdownTime);
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
